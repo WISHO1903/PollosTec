@@ -1,0 +1,234 @@
+/* 1.Mover mas arriba el cubo de basura */
+
+
+.URL{
+	width: 350px;
+}
+
+
+/* /* css del body */
+
+body {
+	font: 300 16px/1.5 'Roboto', sans-serif;
+	color: #000000;
+	background: #FF852D;
+  }
+  
+  .container {
+	margin: 0 auto;
+	max-width: 540px;
+	padding: 0 50px;
+  }
+
+
+h1 {
+	font-size: 20px;
+	font-weight: 300;
+	position: relative;
+	bottom: 95px;
+	left: 65px;
+  }
+  
+  p {
+	margin: 0 50px 15px;
+  }
+
+h2{
+	position: relative;
+	bottom: 120px;
+	left: 35px;
+}
+  
+.ID{
+	/* width: 25px;
+	text-align: center; */
+	position: relative;
+	left: 140px;
+	top: 150px;
+}
+
+.Texto{
+	justify-content: flex-end;
+	width: 130px;
+	height: 100px;
+	/* vertical-align: top; */
+	position: relative;
+	left: 110px;
+	bottom: 169px;
+	background: #CCCCCC;
+}
+
+
+  .todoBlock {
+	padding: 100px;
+	margin: 30px 0;
+	background: #fff;
+	box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .todoBlock .titleHolder {
+	margin: 0 10px 50px;
+  }
+
+
+  .listHolder li {
+	/* counter-increment: step-counter;
+	overflow: hidden; */
+	padding: 0 30px 0px 20px;
+	position: relative;
+	bottom: 25px;
+  }
+/* css de los botones*/
+
+
+
+
+
+/* css de la caja de texto
+input[type="text"] {
+	width: 80%;
+	height: 30px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 10px;
+	font: 30 16px/1.5 'Roboto', sans-serif;
+	transition: border 0.3s linear;
+  }
+  
+ */
+
+
+/* css para el color del borde de la caja de texto
+input[type="text"]:focus {
+	border-color: #4ac7be;
+	outline: none;
+  }
+*/
+
+
+/*Color y tamaño de los botones inferiores*/
+.btn-primary {
+	background: #FF852D;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	align-content: left;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	cursor: pointer;
+	font: 300 16px/1.5 'Roboto', sans-serif;
+	transition: background 0.3s linear;
+  }
+  
+
+
+  .btn-primary:hover {
+	background: #097fb7;
+  }
+  
+  .btn-primary:focus {
+	outline: none;
+  }
+  
+  .btn-icon {
+	background: none;
+	border: none;
+	display: inline-block;
+	vertical-align: top;
+	color: #333;
+	cursor: pointer;
+	transition: background 0.3s linear, color 0.3s linear;
+  }
+  
+  .btn-icon:focus {
+	outline: none;
+  }
+  
+  .btn-icon:before {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+  }
+  
+
+
+/* css de los iconos de borrar*/
+
+
+.btn-icon.remove:before {
+	content: '\f2ed';
+  }
+
+
+/* css del scroll*/
+
+
+ul ol {
+	list-style: none;
+}
+
+/* dropdown menu settings */
+select{
+	background-color: black;
+	color: aliceblue;
+	text-decoration: none;
+	padding: 10px 5px;
+	display: flex;
+	position: relative;
+	right: 155px;
+	bottom: 280px;
+}
+
+
+select option:checked{
+	background-color: #FF852D;
+}
+
+.verticalM > li{
+	float: left;
+}
+
+/* Organiza los dropdown buttons */
+.verticalM li ul {
+	display: none;
+	position: absolute;
+	left: 50%;
+	right: auto;
+	transform: translateX(-50%);
+}
+
+
+.verticalM li:hover > ul {
+	display: block;
+}
+
+/* .verticalM li ul li {
+	position: relative;
+} */
+
+h3{
+	position: relative;
+	left: 95px;
+	bottom: 150px;
+}
+
+.formHolder{
+	bottom: 30px;
+}
+
+.Tarea{
+	position: relative;
+	left: 40px;
+	bottom: 90px;
+	background: #CCCCCC;
+}
+
+/* Remueven los marcadores (bullets) */
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}

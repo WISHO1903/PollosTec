@@ -1,0 +1,26 @@
+{
+  "manifest_version":2,
+ "name":"Code editor",
+ "version":"2.0.5",
+ "description": "extension to edit code",
+ "author":"Pollos a la Naranja Tec",
+ "icons":{
+     
+     "128":"logopollos.png"},
+
+ "browser_action":{
+     "default_icon":"logopollos.png",
+     "default_title": "Code editor",
+     "default_popup":"index.html"
+
+ },
+
+
+ "permissions":["activeTab"],
+
+ "background" :{
+ }
+
+
+
+}
